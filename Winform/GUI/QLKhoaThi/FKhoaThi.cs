@@ -73,7 +73,6 @@ namespace Winform.GUI.QLKhoaThi
             {
                 getKhoaThis();
                 dataGridView1.Rows[khoaThiIndex].Selected = true;
-                khoaThiIndex = -1;
             }
         }
         private void btnChotKhoaThi_Click(object sender, EventArgs e)
